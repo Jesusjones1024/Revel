@@ -1,0 +1,21 @@
+		
+    import java.util.Scanner;
+		public class asdsad {
+		    public static void main(String[] args) {
+		        Scanner input = new Scanner(System.in);
+		        System.out.print("Enter the number of minutes: ");
+		        long numberMinutes = input.nextLong();
+		        
+		        // calculate minutes in day
+		        int numberHours = (int) numberMinutes / 60;
+		        int numberDays = numberHours / 24;
+		        int numberYears = numberDays / 365;
+		        int numberDaysLeft = numberYears % 365;
+		        
+		        System.out.print(numberMinutes + " minutes is approximately " + numberYears + 
+		        " years " + numberDaysLeft + " days ");
+		   
+		        
+	}
+
+}
